@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 68px;
+}
+
+.header-img {
+    margin-left: 120px;
+    margin-top: 8px;
+}
