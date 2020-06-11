@@ -54,7 +54,7 @@ input[type=text] {
     background-color: transparent;
     background-image: url(/img/search.png);
     background-size: 30px;
-    background-position: 7px 7px;
+    background-position: 7px 10px;
     background-repeat: no-repeat;
     padding: 12px 56px 12px 40px;
 }
@@ -80,29 +80,76 @@ input[type=text]:focus {
     width: 100%;
 }
 
-.container {
-    background: rgb(216, 26, 26);
-    opacity: 0.7;
-    width: 450px;
-    height: 193px;
-    left: 0px;
+.text-wrapper {
+    font-family: "Open Sans", sans-serif;
+    background: transparent;
+    max-width: 500px;
+    height: 150px;
+    top: 200px;
 }
 
-.container-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+.slider-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+    position: absolute;
+    top: 490px;
+    left: 10px;
+}
+
+.cont-title h1 {
+    font-size: 33px;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 44px;
+    background: transparent;
 }
 
-.container-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 33px;
+.cont-text p {
+    font-size: 20px;
+    background: transparent;
 }
+
+.slider-buttons {
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    height: 100%;
+}
+
+/* .button1, .button2 {
+    background: rgb(255, 0, 0);
+} */
+
+.button1 {
+    width: 220px;
+    height: 150px;
+    background: url(/img/svg/Vector4.svg), white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button2 {
+    width: 220px;
+    height: 150px;
+    background: url(/img/svg/Vector3.svg), white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button1:hover {
+    background: url(/img/svg/Vector4.svg), rgba(0, 0, 0, 0.01);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button2:hover {
+    background: url(/img/svg/Vector3.svg), rgba(0, 0, 0, 0.01);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*scroll-bar start*/
 
 ::-webkit-scrollbar {
     width: 15px;
@@ -119,3 +166,5 @@ input[type=text]:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(143, 143, 143);
 }
+
+/*scroll-bar end*/
