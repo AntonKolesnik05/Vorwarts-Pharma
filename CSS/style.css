@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: Open Sans;
+    src: url(OpenSans-Regular.ttf);
+    font-weight: normal;
+}
+
+.Partner {
+    background: linear-gradient(0deg, rgba(79, 79, 79, 0.5), rgba(79, 79, 79, 0.5)), url(Organik-spirulina-tablets.png);
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 350px;
+    left: 0px;
+    top: 0px;
+}
+.Partner h2 {
+    color: #f2f2f2;
+    position: absolute;
+    width: 1005px;
+    height: 87px;
+    left: 458px;
+    margin-top: 84px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+.frame1 {
+    margin-top: 203px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    height: 45px;
+    left: 738px;
+}
+.frame1 h4 {
+    color: #333333;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    width: 145px;
+    height: 25px;
+    left: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    width: 179px;
+    height: 45px;
+    left: 1003px;
+    margin-top: 203px; 
+    border: 2px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #333333;
+    position: absolute;
+    width: 1920px;
+    height: 404px;
+    left: 0px;
+    top: 0px;
+}
+.Vorwarts-Pharma {
+    display: inline-block;
+    position: absolute;
+    width: 316px;
+    height: 97px;
+    left: 120px;
+}
+.Vorwarts-Pharma h3 {
+    margin-top: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F2F2F2;
+}
+.Vorwarts-Pharma p {
+    color: #bdbdbd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.Contacts {
+    position: absolute;
+    width: 98px;
+    height: 130px;
+    left: 583px;;
+}
+.Contacts h3 {
+    margin-top: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F2F2F2;
+}
+.Contacts h4 {
+    color: #bdbdbd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0px;
+    margin: 0px;
+}
+.Call-Us {
+    position: absolute;
+    width: 186px;
+    height: 33px;
+    left: 960px;
+} 
+.Call-Us h3 {
+    margin-top: 84px;
+    color: #f2f2ff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.Call-Us h4 {
+    color: #bdbdbd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0px;
+}
+.Write-Us {
+    position: absolute;
+    width: 198px;
+    height: 76px;
+    left: 1441px;
+}
+.Write-Us h3 {
+    color: #f2f2f2;
+    margin-top: 84px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.Write-Us h4 {
+    color: #bdbdbd;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.Social {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+}
+.Social img {
+    padding-right: 40px;
+}
+.Since {
+    position: absolute;
+    width: 228px;
+    height: 27px;
+    left: 186px;
+}
+.Since h4 {
+    margin-top: 325px;
+    color: #e0e0e0;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.Created {
+    position: absolute;
+    width: 166px;
+    height: 27px;
+    left: 1556px;
+}
+.Created h4 {
+    margin-top: 325px;
+    color: #bdbdbd;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
