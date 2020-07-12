@@ -14,7 +14,7 @@ body {
 }
 
 .Partner {
-    background: linear-gradient(0deg, rgba(79, 79, 79, 0.5), rgba(79, 79, 79, 0.5)), url(/IMG/Organik-spirulina-tablets.png);
+    background: linear-gradient(0deg, rgba(79, 79, 79, 0.3), rgba(79, 79, 79, 0.3)), url(/IMG/Organik-spirulina-tablets.png);
     background-size: 110%;
     margin: 0px;
     padding: 0px;
@@ -24,56 +24,108 @@ body {
     top: 0px;
 }
 .Partner h2 {
-    color: #f2f2f2;
+    color: #e0e0e0;
     position: absolute;
-    width: 1005px;
+    width: 900px;
     height: 87px;
-    left: 458px;
-    margin-top: 84px;
+    left: 240px;
+    margin-top: 50px;
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 26px;
+    line-height: 38px;
     text-align: center;
 }
-.frame1 {
-    margin-top: 203px;
+.first-link {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    top: 150px;
+    border: 2px solid #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    height: 25px;
+    left: 490px;
+}
+.first-link:hover {
+    color: #333333;
+    cursor: pointer;
     background: #f2f2f2;
     display: flex;
     flex-direction: row;
     padding: 10px 40px;
     position: absolute;
-    height: 45px;
-    left: 738px;
-}
-.frame1 h4 {
-    color: #333333;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    width: 145px;
     height: 25px;
-    left: 40px;
-    padding: 0px;
-    margin: 0px;
+    left: 490px;
+    transition: ease-out .3s;
 }
-.frame2 {
+.first-link:active {
+    color: #333333;
+    cursor: pointer;
+    top: 150px;
+    background: #f2f2f2;
     display: flex;
     flex-direction: row;
     padding: 10px 40px;
     position: absolute;
-    width: 179px;
-    height: 45px;
-    left: 1003px;
-    margin-top: 203px; 
-    border: 2px solid #F2F2F2;
-    box-sizing: border-box;
+    height: 25px;
+    left: 490px;
+    cursor: progress;
 }
-
+.second-link {
+    color: #f2f2f2;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 750px;
+    top: 150px; 
+    border: 2px solid #F2F2F2;
+    text-decoration: none;
+}
+.second-link:hover {
+    color: #333333;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 750px;
+    top: 150px; 
+    cursor: pointer;
+    transition: ease-out .3s;
+}
+.second-link:active {
+    color: #333333;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 750px;
+    top: 150px; 
+    cursor: progress;
+}
 footer {
     background: #333333;
     width: 100%;
@@ -183,6 +235,9 @@ footer {
     margin-top: 15px;
     padding-right: 30px;
 }
+.first {
+    margin-top: 16.5px!important;
+}
 .Since {
     position: absolute;
     width: 228px;
@@ -190,12 +245,12 @@ footer {
     left: 150px;
 }
 .Since h4 {
-    margin-top: 250px;
+    margin-top: 260px;
     color: #e0e0e0;
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 27px;
 }
 .Created {
@@ -205,12 +260,12 @@ footer {
     left: 1100px;
 }
 .Created h4 {
-    margin-top: 250px;
+    margin-top: 260px;
     color: #bdbdbd;
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 27px;
 }
 
