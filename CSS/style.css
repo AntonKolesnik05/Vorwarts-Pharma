@@ -7,11 +7,79 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 @font-face {
     font-family: Open Sans;
     src: url(OpenSans-Regular.ttf);
     font-weight: normal;
 }
+
+
+.Contacts {
+    background: #ffffff;
+    width: 100%;
+    height: 400px;
+}
+
+.contacts-name {
+    font-family: inherit;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.left-click {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 185px;
+}
+
+.right-click {
+    position: absolute;
+    margin-left: 1275px;
+    margin-top: 185px;
+}
+
+.data1 {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 110px;
+}
+
+.data2 {
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 110px;
+}
+
+.data3 {
+    position: absolute;
+    margin-left: 935px;
+    margin-top: 110px;
+}
+
+.title-data {
+    font-weight: normal;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 26px;
+    color: #4f4f4f;
+    line-height: 56px;
+}
+
+.information-data {
+    color: #333333;
+    font-weight: normal;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
 
 .Partner {
     background: linear-gradient(0deg, rgba(79, 79, 79, 0.3), rgba(79, 79, 79, 0.3)), url(/IMG/Organik-spirulina-tablets.png);
@@ -23,6 +91,7 @@ body {
     left: 0px;
     top: 0px;
 }
+
 .Partner h2 {
     color: #e0e0e0;
     position: absolute;
@@ -37,6 +106,7 @@ body {
     line-height: 38px;
     text-align: center;
 }
+
 .first-link {
     color: #f2f2f2;
     text-decoration: none;
@@ -46,7 +116,7 @@ body {
     font-size: 17px;
     line-height: 25px;
     text-align: center;
-    top: 150px;
+    margin-top: 150px;
     border: 2px solid #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -55,6 +125,7 @@ body {
     height: 25px;
     left: 490px;
 }
+
 .first-link:hover {
     color: #333333;
     cursor: pointer;
@@ -67,10 +138,11 @@ body {
     left: 490px;
     transition: ease-out .3s;
 }
+
 .first-link:active {
     color: #333333;
-    cursor: pointer;
-    top: 150px;
+    cursor: progress;
+    margin-top: 150px;
     background: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -80,6 +152,7 @@ body {
     left: 490px;
     cursor: progress;
 }
+
 .second-link {
     color: #f2f2f2;
     font-family: inherit;
@@ -95,10 +168,11 @@ body {
     width: 90px;
     height: 25px;
     left: 750px;
-    top: 150px; 
+    margin-top: 128px; 
     border: 2px solid #F2F2F2;
     text-decoration: none;
 }
+
 .second-link:hover {
     color: #333333;
     background: #f2f2f2;
@@ -109,10 +183,11 @@ body {
     width: 90px;
     height: 25px;
     left: 750px;
-    top: 150px; 
+    margin-top: 128px; 
     cursor: pointer;
     transition: ease-out .3s;
 }
+
 .second-link:active {
     color: #333333;
     background: #f2f2f2;
@@ -123,9 +198,11 @@ body {
     width: 90px;
     height: 25px;
     left: 750px;
-    top: 150px; 
+    margin-top: 128px; 
     cursor: progress;
 }
+
+
 footer {
     background: #333333;
     width: 100%;
@@ -133,6 +210,7 @@ footer {
     left: 0px;
     top: 0px;
 }
+
 .Vorwarts-Pharma {
     display: inline-block;
     position: absolute;
@@ -140,6 +218,7 @@ footer {
     height: 70px;
     left: 90px;
 }
+
 .Vorwarts-Pharma h3 {
     margin-top: 60px;
     font-style: normal;
@@ -148,6 +227,7 @@ footer {
     line-height: 33px;
     color: #F2F2F2;
 }
+
 .Vorwarts-Pharma p {
     color: #bdbdbd;
     font-style: normal;
@@ -155,13 +235,15 @@ footer {
     font-size: 15px;
     line-height: 27px;
 }
-.Contacts {
+
+.Contacts-footer {
     position: absolute;
     width: 38px;
     height: 110px;
     left: 450px;
 }
-.Contacts h3 {
+
+.Contacts-footer h3 {
     margin-top: 60px;
     font-style: normal;
     font-weight: normal;
@@ -169,7 +251,8 @@ footer {
     line-height: 33px;
     color: #F2F2F2;
 }
-.Contacts h4 {
+
+.Contacts-footer h4 {
     color: #bdbdbd;
     font-style: normal;
     font-weight: normal;
@@ -178,12 +261,14 @@ footer {
     padding: 0px;
     margin: 0px;
 }
+
 .Call-Us {
     position: absolute;
     width: 150px;
     height: 33px;
     left: 700px;
-} 
+}
+
 .Call-Us h3 {
     margin-top: 60px;
     color: #f2f2ff;
@@ -192,6 +277,7 @@ footer {
     font-size: 19px;
     line-height: 33px;
 }
+
 .Call-Us h4 {
     color: #bdbdbd;
     font-style: normal;
@@ -200,12 +286,14 @@ footer {
     line-height: 27px;
     margin: 0px;
 }
+
 .Write-Us {
     position: absolute;
     width: 148px;
     height: 56px;
     left: 1041px;
 }
+
 .Write-Us h3 {
     color: #f2f2f2;
     margin-top: 60px;
@@ -215,6 +303,7 @@ footer {
     font-size: 19px;
     line-height: 33px;
 }
+
 .Write-Us h4 {
     color: #bdbdbd;
     font-family: inherit;
@@ -223,6 +312,7 @@ footer {
     font-size: 15px;
     line-height: 27px;
 }
+
 .Social {
     display: flex;
     flex-direction: row;
@@ -231,19 +321,23 @@ footer {
     width: 210px;
     height: 50px;
 }
+
 .Social img {
     margin-top: 15px;
     padding-right: 30px;
 }
+
 .first {
     margin-top: 16.5px!important;
 }
+
 .Since {
     position: absolute;
     width: 228px;
     height: 27px;
     left: 150px;
 }
+
 .Since h4 {
     margin-top: 260px;
     color: #e0e0e0;
@@ -253,12 +347,14 @@ footer {
     font-size: 16px;
     line-height: 27px;
 }
+
 .Created {
     position: absolute;
     width: 166px;
     height: 27px;
     left: 1100px;
 }
+
 .Created h4 {
     margin-top: 260px;
     color: #bdbdbd;
@@ -268,5 +364,6 @@ footer {
     font-size: 16px;
     line-height: 27px;
 }
+
 
 
