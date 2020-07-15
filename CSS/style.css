@@ -40,7 +40,7 @@ body {
 
 .right-click {
     position: absolute;
-    margin-left: 1275px;
+    margin-left: 1265px;
     margin-top: 185px;
 }
 
@@ -76,7 +76,7 @@ body {
     font-weight: normal;
     font-family: inherit;
     font-style: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
 }
 
