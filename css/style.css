@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    background: rgb(241, 241, 241);
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+}
+
+.header-nav {
+    height: 60px;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-item a {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 22px;
+    color: #4F4F4F;
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+}
+
+.input-wrapper {
+    padding-top: 1px;
+}
+
+.header-item {
+    border-bottom: 3px solid transparent;
+    padding: 1rem;
+}
+
+.header-item:hover {
+    border-color: rgb(40, 145, 8);
+}
+
+input[type=text] {
+    width: 200px;
+    border: 0;
+    background-color: transparent;
+    background-image: url(/img/search.png);
+    background-size: 30px;
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding: 12px 56px 12px 40px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.search-option {
+    border: 0;
+    background: transparent;
+}
+
+.form {
+    display: flex;
+}
+
+.dropdown {
+    padding-top: 5px;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.container {
+    background: rgb(216, 26, 26);
+    opacity: 0.7;
+    width: 450px;
+    height: 193px;
+    left: 0px;
+}
+
+.container-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.container-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 33px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(241, 241, 241);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 143, 143);
+}
